@@ -1,0 +1,110 @@
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box; 
+}
+
+body{
+    font-family: 'Open Sans', sans-serif;
+    line-height: 2.0;
+    font-size: 1rem;
+}
+.container{
+    width: 80%;
+    margin: auto;
+    /* border: 1px solid red; */
+    border-left: 5px double red;
+    padding-left: 4px;
+    padding-top: 20px;
+}
+.main-section{
+    width: 100%;
+    display: flex;
+}
+.listing-order{
+    list-style: none;
+}
+
+.aboutself{
+    width: 70%;
+    padding: 40px;
+}
+
+.passport{
+    width: 30%;
+}
+
+.img-adjust{
+   width: 80%;
+   height: 180px;
+   min-width: 112px;
+}
+.seperator{
+    padding: 5px;
+}
+.table-part{
+    justify-content: center;
+    display: flex;
+}
+
+table,th,tr,td{
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+tr th{
+    padding: 0 10px 0 10px;
+}
+tr td{
+    text-align: center;
+}
+
+.skills{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.lang{
+    display: flex;
+}
+
+.lang div:first-child{
+    width: 40%;
+    padding-left: 20px;
+}
+
+.lang div:last-child{
+    width: 60%;
+}
+
+.progressbar{
+    width: 95%;
+}
+
+
+.personal-details{
+    width: 70%;
+    margin: auto;
+}
+.detail{
+    display: flex;
+}
+
+.detail div:first-child{
+    width: 40%;
+}
+.detail div:last-child{
+    width: 60%;
+}
+
+
+
+.header:hover{
+    height: 20%;
+    width: 20%;
+    border:1px solid red;
+    background-color: rgb(57, 92, 92);
+    color: white;
+    text-align:center ;
+    border-radius: 40%;
+}
